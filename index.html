@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title> <!-- Название страницы -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo"><script>document.write(document.domain)</script></a>
+            <p class="quote"></p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Handmade cream-mask for face</h1>
+
+
+            <img src="imaage.jpg" alt="Nature">
+
+            <p class="main__p">
+There's clean skincare, and then there's skincare so clean it only contains ingredients found in your kitchen cabinets. But when you're feeling the itch to make a DIY mask, there are some ingredients that are safer and more effective than others. So we turned to Cecilia Wong, a N.Y.C.-based celebrity facialist as well as the founder of non-invasive skincare salon and natural skincare line Cecilia Wong Skincare, to share easy mask recipes you can make using wholesome ingredients. Whether you’re picky about what goes on your skin or you simply need a mask on the fly, there’s a homemade option you can whip up faster than your breakfast.
+
+
+
+If you do not want to make the cream yourself, you can order it from us. Click on the "Order" button </p>
+
+            <a href="OrderForm.html" class="main__btn">To order</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="Privacy_Policy.html">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        var h1 = document.getElementsByTagName("h1")[0].innerHTML;
+        var image = document.getElementsByTagName("img")[0].src;
+        sessionStorage.setItem("h1", h1);
+        sessionStorage.setItem("image", image);
+    </script>
+
+</body>
+</html>
